@@ -1,1 +1,1 @@
-console.log("YYYY");
+(()=>{"use strict";(function(){const t=document.getElementById("content");t.appendChild(function(){const t=document.createElement("h1");return t.classList.add("restName"),t.textContent="Restaurant",t}()),t.appendChild(function(){const t=document.createElement("img");return t.src="rest.png",t.classList.add("image"),t}()),t.appendChild(function(){const t=document.createElement("p");return t.classList.add("description"),t.textContent="THis is the ebst restaurant etc etc",t}())})(),console.log("YYYY")})();
