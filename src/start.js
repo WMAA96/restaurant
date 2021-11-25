@@ -20,7 +20,7 @@ function image() {
 function description() {
     const description = document.createElement("p");
     description.classList.add("description");
-    description.textContent = "THis is the ebst restaurant etc etc"
+    description.textContent = "THis is the best restaurant etc etc"
 
     return description;
 }
@@ -28,11 +28,14 @@ function description() {
 
 function initWebsite() {
     const content = document.getElementById("content");
-
     content.appendChild(createHeader());
     content.appendChild(image());
     content.appendChild(description());
+    
 }
+
+
+
 
 
 export default initWebsite;
